@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>AutoFlick</title>
+  </head>
+  <body>
+    <header>
+      <img src="../icons/icon32.png" alt="" width="24" height="24" />
+      <h1>AutoFlick</h1>
+    </header>
+
+    <ul class="toggles">
+      <li>
+        <label class="row" for="youtubeShorts">
+          <span class="name">YouTube Shorts</span>
+          <input type="checkbox" id="youtubeShorts" data-key="youtubeShorts" />
+          <span class="switch"></span>
+        </label>
+      </li>
+      <li>
+        <label class="row" for="tiktok">
+          <span class="name">TikTok</span>
+          <input type="checkbox" id="tiktok" data-key="tiktok" />
+          <span class="switch"></span>
+        </label>
+      </li>
+      <li>
+        <label class="row" for="instagram">
+          <span class="name">Instagram Reels</span>
+          <input type="checkbox" id="instagram" data-key="instagram" />
+          <span class="switch"></span>
+        </label>
+      </li>
+    </ul>
+
+    <p class="hint">Changes apply instantly. Reload an open tab if it doesn't take effect.</p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

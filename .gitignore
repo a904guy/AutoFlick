@@ -1,0 +1,23 @@
+# Build artifacts / packaged extension
+*.zip
+*.xpi
+*.crx
+*.pem
+web-ext-artifacts/
+dist/
+build/
+
+# Dependencies (if tooling is added later)
+node_modules/
+
+# Editor / OS cruft
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs and env
+*.log
+.env
+.env.*
